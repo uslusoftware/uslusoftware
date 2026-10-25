@@ -1,0 +1,36 @@
+name: Profile or documentation issue
+description: Report an incorrect link, inaccurate detail, or presentation issue in this repository.
+title: "[Profile]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for the Uslu Medya GitHub profile and its documentation.
+        For application issues, use the relevant project repository.
+        Report vulnerabilities or exposed information privately to usluyapimorg@gmail.com.
+  - type: input
+    id: location
+    attributes:
+      label: Affected location
+      description: Link to the page, file, or section.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What needs attention?
+      description: Explain what is incorrect or difficult to use and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
+      description: Include a source for factual corrections where possible. For visual issues, add browser and screen size details.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Before submitting
+      options:
+        - label: I have removed credentials, personal information, and confidential client material.
+          required: true

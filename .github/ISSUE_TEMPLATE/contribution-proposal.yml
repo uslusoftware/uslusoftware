@@ -1,0 +1,37 @@
+name: Contribution proposal
+description: Discuss a change with the team before starting implementation.
+title: "[Proposal]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Our team coordinates development internally. Please wait for a maintainer to confirm scope before implementing an external contribution.
+        Use email for business inquiries or sensitive information: usluyapimorg@gmail.com.
+  - type: textarea
+    id: need
+    attributes:
+      label: Problem or opportunity
+      description: What would improve, and who would benefit?
+    validations:
+      required: true
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed approach
+      description: Describe the change, affected files or sections, and what is outside its scope.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: How would you validate it?
+      description: Describe the checks, examples, or visual review that would demonstrate the result.
+  - type: checkboxes
+    id: expectations
+    attributes:
+      label: Before submitting
+      options:
+        - label: I understand that a maintainer should confirm scope before implementation.
+          required: true
+        - label: This proposal contains no credentials or confidential information.
+          required: true

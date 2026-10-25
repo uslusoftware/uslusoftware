@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Uslu Medya</title>
+  <desc id="desc">An editorial charcoal and lime banner. Creative thinking. Practical engineering. Design, advertising, music, web and software.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1600" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171C20"/>
+      <stop offset="1" stop-color="#090D10"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="1080" y1="90" x2="1460" y2="490" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FA77"/>
+      <stop offset="1" stop-color="#76BFA6"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1600" height="600" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1600" height="600" fill="url(#background)"/>
+    <path d="M1020 0V600M1250 0V600M1480 0V600M960 150H1600M960 450H1600" stroke="#F2F5ED" stroke-opacity=".055"/>
+    <circle cx="1288" cy="298" r="205" stroke="#D8FA77" stroke-opacity=".15"/>
+    <circle cx="1288" cy="298" r="252" stroke="#D8FA77" stroke-opacity=".07"/>
+    <path d="M1154 172V310C1154 386 1204 429 1288 429C1372 429 1422 386 1422 310V172" stroke="url(#ribbon)" stroke-width="58"/>
+    <path d="M1250 169V294C1250 319 1262 332 1288 332C1314 332 1326 319 1326 294V169" stroke="#F1F5EA" stroke-width="14"/>
+    <path d="M1140 468H1437" stroke="#D8FA77" stroke-opacity=".4"/>
+    <circle cx="1437" cy="468" r="4" fill="#D8FA77"/>
+    <rect x="72" y="66" width="8" height="8" fill="#D8FA77"/>
+    <text x="98" y="78" fill="#C6CDC7" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="4">THE CREATIVE / THE TECHNICAL</text>
+    <text x="66" y="231" fill="#F1F5EA" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="700" letter-spacing="-6">USLU MEDYA</text>
+    <text x="73" y="323" fill="#F1F5EA" font-family="Arial, Helvetica, sans-serif" font-size="42" letter-spacing="-1">Creative thinking.</text>
+    <text x="73" y="378" fill="#D8FA77" font-family="Arial, Helvetica, sans-serif" font-size="42" letter-spacing="-1">Practical engineering.</text>
+    <path d="M74 452H896" stroke="#F1F5EA" stroke-opacity=".16"/>
+    <text x="74" y="496" fill="#B3BFB8" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2.4">DESIGN / ADVERTISING / MUSIC / WEB / SOFTWARE</text>
+    <text x="74" y="550" fill="#718078" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="2">GITHUB.COM/USLUSOFTWARE</text>
+  </g>
+</svg>

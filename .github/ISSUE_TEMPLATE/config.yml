@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Business inquiries and project-specific support
+    url: mailto:usluyapimorg@gmail.com
+    about: Contact the team about a brief, collaboration, or a private client request.
+  - name: Report a security concern privately
+    url: mailto:usluyapimorg@gmail.com?subject=Security%20report
+    about: Do not disclose vulnerabilities or credentials in public issues.
